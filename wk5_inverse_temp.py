@@ -40,17 +40,17 @@ def temp_convert(celsius, kelvin):
 
     """
 
-    CELSIUS_FHT = ((decimal.Decimal(celsius) * 9) / 5) + 32
+    CELSIUSFHT = ((decimal.Decimal(celsius) * 9) / 5) + 32
 
-    KELVIN_CELS = decimal.Decimal(kelvin) - ABS_DIFF
+    KELVINCELS = decimal.Decimal(kelvin) - ABS_DIFF
 
-    KELVIN_FHT = ((decimal.Decimal(KELVIN_CELS) * 9) / 5) + 32
+    KELVINFHT = ((decimal.Decimal(KELVINCELS) * 9) / 5) + 32
 
-    OUTPUT_TEMP = ('\nTEMPRATURE CONVERSION \n{}'
-                   '\n{:>2}{:>3}'
-                   '\n{:>2}{:>4}'
-                   '\n{:>2}{:>6}').format('-'*25,
-                                          'CELCIUS TO FAHRENHEIT:', CELSIUS_FHT,
-                                          'KELVIN TO CELCIUS    :', KELVIN_CELS,
-                                          'KELVIN TO FAHRENHEIT :', KELVIN_FHT)
-    print OUTPUT_TEMP
+    TEMPRATURE_RESULT = ('\nConverted Temprature \n{}\n{:>2}{:>3}'
+                         '\n{:>2}{:>4}\n'
+                         '{:>2}{:>6}').format('-'*25,
+                                              'CELCIUS_FAHRENHEIT:', CELSIUSFHT,
+                                              'KELVIN_CELCIUS    :', KELVINCELS,
+                                              'KELVIN_FAHRENHEIT :', KELVINFHT)
+    print TEMPRATURE_RESULT
+
