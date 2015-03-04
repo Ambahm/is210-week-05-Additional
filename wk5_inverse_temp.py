@@ -24,7 +24,7 @@ def temp_convert(celsius, kelvin):
 
         >>> temp_convert(100,373)
 
-        TEMPRATURE CONVERSION
+        Converted Temprature 
         -------------------------
         CELCIUS TO FAHRENHEIT:212
         KELVIN TO CELCIUS    :99.85
@@ -32,7 +32,7 @@ def temp_convert(celsius, kelvin):
 
         >>> temp_convert(0,0)
 
-        TEMPRATURE CONVERSION
+        Converted Temprature 
         -------------------------
         CELCIUS TO FAHRENHEIT: 32
         KELVIN TO CELCIUS    :-273.15
