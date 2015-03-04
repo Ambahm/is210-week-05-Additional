@@ -14,8 +14,8 @@ def temp_convert(celsius, kelvin):
     """This module returns converted temprature in 3 scales.
 
     Args:
-    C2F(mixed): Celsius to be converted to Fahrenheit
-    K2C(mixed): Kelvin to be converted to Celsius and Fahrenheit
+    celsius(mixed): Celsius to be converted to Fahrenheit
+    kelvin(mixed): Kelvin to be converted to Celsius and Fahrenheit
 
     Returns:
         mixed: Prints converted temprature
