@@ -35,7 +35,7 @@ Using function name give values
 
     >>> temp_convert(100,373)
 
-    TEMPRATURE CONVERSION
+    Converted Temprature 
     --------------------------------------------
     CELCIUS TO FAHRENHEIT:212
     KELVIN TO CELCIUS    :99.85
