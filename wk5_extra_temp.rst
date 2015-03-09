@@ -29,7 +29,7 @@ User needs to call the function and give values for two parameters
 
 Executing
 =========
-Using function name give values 
+Using function name , giving values 
 
  .. code:: pycon
 
